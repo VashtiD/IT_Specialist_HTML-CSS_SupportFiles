@@ -1,4 +1,4 @@
-﻿body {
+body {
     font-family:'Segoe UI', Tahoma, sans-serif;
     background-color: #f7d2aa
 }
@@ -29,9 +29,16 @@ figcaption {
 }
 a {
     text-decoration: none;
+    color: darkgreen; /* add color property with value darkgreen */
 }
 a:hover {
     text-decoration: underline;
     font-weight: bold;
     font-family: 'Palatino Linotype','Times New Roman', serif;
+}
+a:active {
+    color: #63f60a; /* add color property with value #63f60a for active links */
+}
+a:visited {
+    color: #808080; /* add color property with value #808080 for visited links */
 }
