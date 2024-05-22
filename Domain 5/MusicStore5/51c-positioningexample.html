@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -34,6 +34,7 @@
             top:100px;
             overflow:scroll;
             text-align:justify;
+            visibility:hidden; /* Add visibility property with value set to hidden */
         }
     </style>
 </head>
@@ -63,5 +64,11 @@
 
 
     </div>
+    <p>Click to see the coral box</p>
+    <script>
+        document.getElementById("coral").addEventListener("click", function() {
+            document.getElementById("coral").style.visibility = "visible";
+        });
+    </script>
 </body>
 </html>
