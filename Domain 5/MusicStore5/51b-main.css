@@ -1,5 +1,5 @@
-﻿body {
-    font-family:'Segoe UI', Tahoma, sans-serif;
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
     background-color: #f7d2aa
 }
 p {
@@ -12,6 +12,7 @@ figcaption {
     color: navy;
     font-weight: bold;
     /*background-color: #AAEEFF;*/
+    display: inline; /* Add display property with value set to inline */
 }
 .sale {
     font-weight: bold;
