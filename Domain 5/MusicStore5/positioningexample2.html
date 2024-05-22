@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -15,7 +15,7 @@
             border: 1px solid black;
             width: 250px;
             height: 250px;
-            line-height:20px;
+            line-height:20px; /* add line-height property with value 20px */
         }
         #coral {
             background-color: lightcoral;
@@ -50,6 +50,41 @@
         Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
 
+    </div>
+</body>
+</html>
+
+<!-- word-wrap example -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Word Wrap Example</title>
+    <style>
+        #normal {
+            border: 1px solid black;
+            width: 200px;
+            height: 100px;
+            word-wrap: normal;
+        }
+        #break-word {
+            border: 1px solid black;
+            width: 200px;
+            height: 100px;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <div id="normal">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum 
+        imperdiet risus ut pulvinar interdum vestibulum elit sagittis 
+        elementum auctor orci feugiat justo eu lobortis facilisis risus
+    </div>
+    <div id="break-word">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum 
+        imperdiet risus ut pulvinar interdum vestibulum elit sagittis 
+        elementum auctor orci feugiat justo eu lobortis facilisis risus
     </div>
 </body>
 </html>
