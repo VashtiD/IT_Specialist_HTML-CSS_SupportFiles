@@ -1,44 +1,24 @@
-﻿body {
-    font-family:'Segoe UI', Tahoma, sans-serif;
-    background-color: #f7d2aa
-}
-p {
-    color: navy;
-}
-
-/* The background color is extending across the page,
-    so I have commented it out for now. */
-h1,h2,h3,h4,h5,h6 {
-    font-family:Helvetica,Arial,sans-serif;
-}
-
-figcaption {
-    font-weight: bold;
-    background-color: #AAEEFF;
-    display:inline;
-    color:#032f0d;
-}
-.sale {
-    background-color: #AAEEFF;
-    font-style:italic;
-    font-weight:bold;
-}
-#sidenote {
-    background-color: #DDDDDD;
-    display:inline;
-}
-a {
-    text-decoration: none;
-    color:darkgreen;
-}
-a:active {
-    color:#63f60a;
-}
-a:visited {
-    color:#808080;
-}
-a:hover {
-    text-decoration: underline;
-    font-weight: bold;
-    font-family: 'Palatino Linotype','Times New Roman', serif;
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Table Example</title>
+    <!-- add link for main.css -->
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="vbot">Cell 1</td>
+            <td class="vbot">Cell 2</td>
+        </tr>
+        <tr>
+            <td>Cell 3</td>
+            <td>Cell 4</td>
+        </tr>
+        <tr>
+            <td><a href="#">Home</a></td>
+        </tr>
+    </table>
+</body>
+</html>
