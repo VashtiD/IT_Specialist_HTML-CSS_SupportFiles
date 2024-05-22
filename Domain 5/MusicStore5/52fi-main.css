@@ -1,4 +1,4 @@
-﻿body {
+body {
     font-family:'Segoe UI', Tahoma, sans-serif;
     background-color: #f7d2aa
 }
@@ -42,7 +42,10 @@ a:hover {
     font-weight: bold;
     font-family: 'Palatino Linotype','Times New Roman', serif;
 }
-td.vbot {
+.vbot {
     vertical-align:bottom;
     height:30px;
+}
+.indent {
+    text-indent: 5em; /* add text indent property with value 5em */
 }
