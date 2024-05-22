@@ -1,4 +1,4 @@
-﻿body {
+body {
     font-family:'Segoe UI', Tahoma, sans-serif;
     background-color: #f7d2aa
 }
@@ -19,6 +19,8 @@ figcaption {
     color:#032f0d;
 }
 .sale {
+    font-style: italic; /* add font style property with value italic */
+    font-weight: 700; /* add font weight property with value 700 */
     background-color: #AAEEFF;
 }
 #sidenote {
@@ -32,4 +34,10 @@ a:hover {
     text-decoration: underline;
     font-weight: bold;
     font-family: 'Palatino Linotype','Times New Roman', serif;
+}
+
+/* change the value of the font weight property to bold */
+.sale {
+    font-style: italic;
+    font-weight: bold;
 }
