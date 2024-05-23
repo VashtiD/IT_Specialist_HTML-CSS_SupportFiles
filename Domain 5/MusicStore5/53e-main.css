@@ -1,4 +1,4 @@
-﻿body {
+body {
     font-family:'Segoe UI', Tahoma, sans-serif;
     background-color: #f7d2aa
 }
@@ -27,7 +27,7 @@ figcaption {
     padding:5em;
 }
 #sidenote {
-    background-color: #DDDDDD;
+    background-color: #333333; /* Changed to #333333 */
     display:inline;
     /*border-color:navy;
     border-style:dashed;
@@ -55,3 +55,26 @@ td.vbot {
     vertical-align:bottom;
     height:30px;
 }
+
+#pagewidth {
+  width: 500px; /* Added a new rule set */
+}
+
+/* Wrap a div tag around the entire body of the webpage */
+<div id="pagewidth">
+  <!-- All content here -->
+  <body>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      </p>
+      <p>
+        Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec lectus.
+      </p>
+      <p>
+        Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo.
+      </p>
+      <p id="sidenote">
+        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut dignissim diam justo nec pretium.
+      </p>
+  </body>
+</div>
