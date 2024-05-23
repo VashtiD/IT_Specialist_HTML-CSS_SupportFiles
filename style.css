@@ -30,3 +30,6 @@ position:relative;
   position:absoulte;
   z-index:1;
 }
+.dropDown:hover .dropDown-content{
+  display:block;
+}
